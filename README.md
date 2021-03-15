@@ -5,7 +5,7 @@ This is a [Vagrant](https://www.vagrantup.com/docs) file which sets up a Debian 
 
 It currently installs _all_ tools, configuration options coming soon but for now you can edit provision.sh if you'd like to adjust the install. Total size with all tools installed is ~24G.
 
-It sets up the networking as a bridged interface.
+Networking is configured as a bridged interface.
 
 It should work across Virtualbox, VMWare and Parallels.
 
