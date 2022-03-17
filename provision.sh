@@ -7,7 +7,15 @@ echo "samba-common samba-common/do_debconf boolean true" | debconf-set-selection
 
 apt update
 apt upgrade -y
-apt install -y vim apt-transport-https curl ca-certificates software-properties-common gnupg2 git python3-pip
+apt install -y \
+  vim \
+  apt-transport-https \
+  curl \
+  ca-certificates \
+  software-properties-common \
+  gnupg2 \
+  git \
+  python3-pip
 
 git clone --recursive https://github.com/trustedsec/ptf.git
 cd ptf
